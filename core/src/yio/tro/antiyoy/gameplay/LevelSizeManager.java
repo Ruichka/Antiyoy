@@ -37,7 +37,7 @@ public class LevelSizeManager {
                 boundWidth = 3 * GraphicsYio.width;
                 boundHeight = 3 * GraphicsYio.height;
                 break;
-            case levelSize.GIANT:
+            case LevelSize.GIANT:
                 boundWidth = 4 * GraphicsYio.width;
                 boundHeight = 4 * GraphicsYio.height;
                 break;
