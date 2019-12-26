@@ -37,6 +37,10 @@ public class LevelSizeManager {
                 boundWidth = 3 * GraphicsYio.width;
                 boundHeight = 3 * GraphicsYio.height;
                 break;
+            case levelSize.GIANT:
+                boundWidth = 4 * GraphicsYio.width;
+                boundHeight = 4 * GraphicsYio.height;
+                break;
         }
 
         getCameraController().setBounds(boundWidth, boundHeight);
