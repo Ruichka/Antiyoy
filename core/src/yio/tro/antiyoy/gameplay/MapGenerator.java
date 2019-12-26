@@ -710,6 +710,8 @@ public class MapGenerator {
                 return 20;
             case LevelSize.HUGE:
                 return 35;
+            case LevelSize.HUGE:
+                return 50;
         }
     }
 
