@@ -8,6 +8,7 @@ public class LevelSize {
     public static final int MEDIUM = 2;
     public static final int BIG = 4;
     public static final int HUGE = 9;
+    public static final int GIANT = 16
 
 
     public static String convertToString(int index) {
@@ -21,6 +22,8 @@ public class LevelSize {
                 return LanguagesManager.getInstance().getString("big");
             case 3:
                 return LanguagesManager.getInstance().getString("huge");
+            case 4:
+                return LanguagesManager.getInstance().getString("giant");
         }
     }
 }
