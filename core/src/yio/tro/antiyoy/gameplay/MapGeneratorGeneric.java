@@ -308,6 +308,8 @@ public class MapGeneratorGeneric extends MapGenerator {
                 return 3;
             case LevelSize.HUGE:
                 return 4;
+            case LevelSize.GIANT:
+                return 5;
         }
     }
 }
